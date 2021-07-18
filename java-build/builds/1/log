@@ -1,0 +1,22 @@
+Started by user [8mha:////4JOVRtKJvJlscixthka2FmHWRmLXX14TPVV1FcUw7+TCAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/dLi1CL9xJTEouKMvBRLAEFJ5KDEAAAA[0mAdarsha
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/java-test-project
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Adarshnd9/java-repo.git
+ > git init /var/lib/jenkins/workspace/java-test-project # timeout=10
+Fetching upstream changes from https://github.com/Adarshnd9/java-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/Adarshnd9/java-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Adarshnd9/java-repo.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 15c603992f56585f915e60d7cf2c6e6d613fc122 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 15c603992f56585f915e60d7cf2c6e6d613fc122 # timeout=10
+Commit message: "Merge pull request #1 from JohnChangUK/master"
+First time build. Skipping changelog.
+Finished: SUCCESS

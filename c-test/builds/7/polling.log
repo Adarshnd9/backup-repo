@@ -1,0 +1,12 @@
+Started on Jul 18, 2021, 9:28:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision ecfea429556d87bcaf3d68395c404540e3fd970e (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git ls-remote -h -- https://github.com/Adarshnd9/c-test-repo.git # timeout=10
+Found 1 remote heads on https://github.com/Adarshnd9/c-test-repo.git
+[poll] Latest remote head revision on refs/heads/master is: 61fb7ee94b3d4fa50a53608adc918a5a9170e4ae
+Done. Took 0.16 sec
+Changes found

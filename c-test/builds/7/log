@@ -1,0 +1,28 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Adarshnd9/c-test-repo.git # timeout=10
+Fetching upstream changes from https://github.com/Adarshnd9/c-test-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/Adarshnd9/c-test-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 61fb7ee94b3d4fa50a53608adc918a5a9170e4ae (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 61fb7ee94b3d4fa50a53608adc918a5a9170e4ae # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk ecfea429556d87bcaf3d68395c404540e3fd970e # timeout=10
+[c-test] $ /bin/sh -xe /tmp/jenkins6304984936501115657.sh
++ cd /var/lib/jenkins/workspace/c-test
++ make
+gcc -c big3.c
+big3.c:1:9: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ include <stdio.h>
+         ^
+make: *** [big3.o] Error 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,9 @@
+commit 006378635c6607f32ed12d062c50ced804878da1
+tree 19145c54054cc9c35f598226d946cbc83788f0ac
+parent 4a23c6ae866b35bbc073516e827bb7a45b5ff55a
+author Adarshnd9 <87356885+Adarshnd9@users.noreply.github.com> 2021-07-18 15:50:15 +0530
+committer GitHub <noreply@github.com> 2021-07-18 15:50:15 +0530
+
+    Update fact.c
+
+:100644 100644 689cfe43b0e024455c9830c09ee4b0186ff54eea 4373d2cbbf5e9fe250b87229b9e63514744fa817 M	fact.c

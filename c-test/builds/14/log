@@ -1,0 +1,24 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Adarshnd9/c-test-repo.git # timeout=10
+Fetching upstream changes from https://github.com/Adarshnd9/c-test-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/Adarshnd9/c-test-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ef1d52a471ba1a92f57fddd4f13823b19dc293b5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ef1d52a471ba1a92f57fddd4f13823b19dc293b5 # timeout=10
+Commit message: "Update fact.c"
+ > git rev-list --no-walk 006378635c6607f32ed12d062c50ced804878da1 # timeout=10
+[c-test] $ /bin/sh -xe /tmp/jenkins933021617042234509.sh
++ cd /var/lib/jenkins/workspace/c-test
++ make
+gcc -c fact.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o
+Finished: SUCCESS

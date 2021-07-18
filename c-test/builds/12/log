@@ -1,0 +1,24 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c-test
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-test/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Adarshnd9/c-test-repo.git # timeout=10
+Fetching upstream changes from https://github.com/Adarshnd9/c-test-repo.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/Adarshnd9/c-test-repo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4a23c6ae866b35bbc073516e827bb7a45b5ff55a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4a23c6ae866b35bbc073516e827bb7a45b5ff55a # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 5541aadf9257f8d607425057bbc55860ca626d24 # timeout=10
+[c-test] $ /bin/sh -xe /tmp/jenkins11079801887162023999.sh
++ cd /var/lib/jenkins/workspace/c-test
++ make
+gcc -c big3.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o
+Finished: SUCCESS
